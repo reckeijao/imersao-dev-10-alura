@@ -1,0 +1,604 @@
+[
+  {
+    "nome": "GitHub Copilot",
+    "descricao": "Assistente de programação baseado em IA que fornece sugestões de código em tempo real diretamente no editor.",
+    "data_criacao": "2021",
+    "link": "https://github.com/features/copilot",
+    "tags": [
+      "AI Tool",
+      "Geração de Código",
+      "Editor Integration",
+      "Machine Learning"
+    ]
+  },
+  {
+    "nome": "Amazon CodeWhisperer",
+    "descricao": "Serviço de codificação de IA generativa que ajuda os desenvolvedores a construir aplicações mais rapidamente, sugerindo código a partir de comentários ou código existente.",
+    "data_criacao": "2022",
+    "link": "https://aws.amazon.com/codewhisperer/",
+    "tags": [
+      "Cloud",
+      "Geração de Código",
+      "AI Tool",
+      "AWS"
+    ]
+  },
+  {
+    "nome": "Hugging Face Transformers",
+    "descricao": "Biblioteca Python que fornece milhares de modelos pré-treinados para tarefas de PNL, incluindo modelos generativos (LLMs).",
+    "data_criacao": "2019",
+    "link": "https://huggingface.co/transformers/",
+    "tags": [
+      "Framework",
+      "NLP",
+      "Machine Learning",
+      "Python"
+    ]
+  },
+  {
+    "nome": "LangChain",
+    "descricao": "Framework projetado para o desenvolvimento de aplicações alimentadas por modelos de linguagem, facilitando a orquestração de LLMs e fontes de dados.",
+    "data_criacao": "2022",
+    "link": "https://www.langchain.com/",
+    "tags": [
+      "Framework",
+      "LLM Ops",
+      "Orquestração",
+      "Python"
+    ]
+  },
+  {
+    "nome": "DeepMind AlphaCode",
+    "descricao": "Sistema de IA desenvolvido pela DeepMind capaz de resolver problemas de programação competitiva em níveis humanos.",
+    "data_criacao": "2022",
+    "link": "https://www.deepmind.com/blog/alphacode-solving-competitive-programming-problems",
+    "tags": [
+      "AI",
+      "Resolução de Problemas",
+      "Geração de Algoritmos"
+    ]
+  },
+  {
+    "nome": "OpenAI Codex",
+    "descricao": "Modelo de IA que impulsiona ferramentas de geração de código, capaz de traduzir linguagem natural para código em dezenas de linguagens de programação.",
+    "data_criacao": "2021",
+    "link": "https://openai.com/blog/openai-codex",
+    "tags": [
+      "LLM",
+      "Code Translation",
+      "API",
+      "Inteligência Artificial"
+    ]
+  },
+  {
+    "nome": "Midjourney",
+    "descricao": "Serviço de IA generativa focado na criação de imagens de alta qualidade a partir de descrições textuais, frequentemente usado para mockups e assets de UI/UX.",
+    "data_criacao": "2022",
+    "link": "https://www.midjourney.com/",
+    "tags": [
+      "Generative AI",
+      "Design",
+      "Asset Creation",
+      "UI/UX"
+    ]
+  },
+  {
+    "nome": "DALL-E",
+    "descricao": "Modelo de IA da OpenAI que gera imagens realistas e arte a partir de descrições em linguagem natural, usado por desenvolvedores para criar ativos visuais.",
+    "data_criacao": "2021",
+    "link": "https://openai.com/dall-e/",
+    "tags": [
+      "Generative AI",
+      "Graphics",
+      "API",
+      "Multimodal"
+    ]
+  },
+  {
+    "nome": "Tabnine",
+    "descricao": "Ferramenta de autocompletar código baseada em IA que usa aprendizado de máquina para prever a próxima linha de código com base no contexto do projeto.",
+    "data_criacao": "2017",
+    "link": "https://www.tabnine.com/",
+    "tags": [
+      "AI Tool",
+      "Editor Integration",
+      "Code Prediction"
+    ]
+  },
+  {
+    "nome": "Llama (Meta)",
+    "descricao": "Família de grandes modelos de linguagem de código aberto da Meta, frequentemente utilizados e ajustados pela comunidade para tarefas de codificação.",
+    "data_criacao": "2023",
+    "link": "https://ai.meta.com/llama/",
+    "tags": [
+      "LLM",
+      "Open Source",
+      "Model Architecture",
+      "Research"
+    ]
+  },
+  {
+    "nome": "RAG (Retrieval-Augmented Generation)",
+    "descricao": "Arquitetura que combina recuperação de informações com geração de texto, crucial para que LLMs acessem e usem dados empresariais externos.",
+    "data_criacao": "2020",
+    "link": "https://arxiv.org/abs/2005.11401",
+    "tags": [
+      "Metodologia",
+      "LLM Ops",
+      "AI Infrastructure",
+      "Data Retrieval"
+    ]
+  },
+  {
+    "nome": "Weaviate",
+    "descricao": "Banco de dados vetorial de código aberto otimizado para RAG e armazenamento de embeddings, essencial para aplicações baseadas em LLMs.",
+    "data_criacao": "2019",
+    "link": "https://weaviate.io/",
+    "tags": [
+      "Vector Database",
+      "AI Infrastructure",
+      "Search Engine",
+      "Open Source"
+    ]
+  },
+  {
+    "nome": "Pinecone",
+    "descricao": "Plataforma de banco de dados vetorial gerenciada em nuvem, usada para armazenar e pesquisar embeddings de alta dimensão em tempo real.",
+    "data_criacao": "2019",
+    "link": "https://www.pinecone.io/",
+    "tags": [
+      "Vector Database",
+      "Cloud Service",
+      "AI Infrastructure"
+    ]
+  },
+  {
+    "nome": "vLLM",
+    "descricao": "Estrutura de serviço de alto rendimento e baixa latência para LLMs, usando técnicas como PagedAttention para otimizar o uso da memória.",
+    "data_criacao": "2023",
+    "link": "https://vllm.ai/",
+    "tags": [
+      "ML Ops",
+      "Serving Framework",
+      "Optimization",
+      "Python"
+    ]
+  },
+  {
+    "nome": "AutoGPT",
+    "descricao": "Um dos primeiros frameworks de agentes autônomos de código aberto, capaz de encadear prompts de LLM para atingir objetivos complexos.",
+    "data_criacao": "2023",
+    "link": "https://github.com/Significant-Gravitas/AutoGPT",
+    "tags": [
+      "AI Agent",
+      "Autonomous Systems",
+      "LLM Orchestration",
+      "Open Source"
+    ]
+  },
+  {
+    "nome": "Gradio",
+    "descricao": "Framework Python que permite a criação rápida de interfaces web para modelos de Machine Learning e prototipagem de demos de IA.",
+    "data_criacao": "2020",
+    "link": "https://www.gradio.app/",
+    "tags": [
+      "Framework",
+      "UI/UX",
+      "ML Demo",
+      "Python"
+    ]
+  },
+  {
+    "nome": "TensorFlow Generative Models",
+    "descricao": "Componentes dentro do ecossistema TensorFlow focados na construção e treinamento de modelos generativos como GANs e VAEs.",
+    "data_criacao": "2015",
+    "link": "https://www.tensorflow.org/",
+    "tags": [
+      "Framework",
+      "Machine Learning",
+      "Deep Learning",
+      "Generative"
+    ]
+  },
+  {
+    "nome": "Keras NLP",
+    "descricao": "Extensão de Keras focada em tornar a implementação de modelos avançados de PNL (incluindo grandes modelos generativos) mais acessível e padronizada.",
+    "data_criacao": "2022",
+    "link": "https://keras.io/api/keras_nlp/",
+    "tags": [
+      "Framework",
+      "NLP",
+      "Deep Learning",
+      "Python"
+    ]
+  },
+  {
+    "nome": "Whisper (OpenAI)",
+    "descricao": "Sistema de reconhecimento automático de fala (ASR) de código aberto, usado para converter áudio em texto, frequentemente como entrada para pipelines de LLMs.",
+    "data_criacao": "2022",
+    "link": "https://openai.com/research/whisper",
+    "tags": [
+      "Speech Recognition",
+      "API",
+      "Utility",
+      "Open Source"
+    ]
+  },
+  {
+    "nome": "Ray",
+    "descricao": "Framework unificado para dimensionamento de aplicações e fluxos de trabalho de IA, essencial para o treinamento distribuído de grandes modelos generativos.",
+    "data_criacao": "2017",
+    "link": "https://www.ray.io/",
+    "tags": [
+      "Framework",
+      "Distributed Computing",
+      "ML Ops",
+      "Scaling"
+    ]
+  },
+  {
+    "nome": "Triton Inference Server (NVIDIA)",
+    "descricao": "Servidor de inferência de código aberto que simplifica a implantação de modelos de IA em produção, oferecendo alto desempenho para LLMs.",
+    "data_criacao": "2018",
+    "link": "https://developer.nvidia.com/triton-inference-server",
+    "tags": [
+      "ML Ops",
+      "Serving",
+      "Optimization",
+      "GPU Acceleration"
+    ]
+  },
+  {
+    "nome": "Rabbit R1",
+    "descricao": "Dispositivo e sistema operacional baseados em IA que utilizam 'Large Action Models' (LAMs) para interagir e executar tarefas em aplicações de software.",
+    "data_criacao": "2024",
+    "link": "https://www.rabbit.tech/",
+    "tags": [
+      "AI Agent",
+      "Interface",
+      "OS Abstraction",
+      "Hardware"
+    ]
+  },
+  {
+    "nome": "Gemma (Google)",
+    "descricao": "Família de modelos abertos leves e de última geração do Google, projetados para impulsionar a inovação em IA de código aberto.",
+    "data_criacao": "2024",
+    "link": "https://blog.google/technology/developers/gemma-open-models/",
+    "tags": [
+      "LLM",
+      "Open Source",
+      "Model Architecture",
+      "Google AI"
+    ]
+  },
+  {
+    "nome": "CodiumAI",
+    "descricao": "Ferramenta de IA que gera testes unitários, testes de integração e análise comportamental para o código, garantindo a qualidade do software.",
+    "data_criacao": "2022",
+    "link": "https://www.codium.ai/",
+    "tags": [
+      "AI Tool",
+      "Testing",
+      "Code Analysis",
+      "DevOps"
+    ]
+  },
+  {
+    "nome": "Microsoft Semantic Kernel",
+    "descricao": "SDK que integra LLMs com linguagens de programação convencionais (C#, Python) para criar aplicações de IA complexas usando padrões de design familiares.",
+    "data_criacao": "2023",
+    "link": "https://github.com/microsoft/semantic-kernel",
+    "tags": [
+      "Framework",
+      "LLM Orchestration",
+      "SDK",
+      "Microsoft"
+    ]
+  },
+  {
+    "nome": "Code Interpreter (GPT-4 tool)",
+    "descricao": "Habilidade do modelo GPT-4 para executar código Python em um ambiente sandbox, primariamente para análise de dados, visualização e resolução de problemas lógicos.",
+    "data_criacao": "2023",
+    "link": "https://openai.com/",
+    "tags": [
+      "análise de código",
+      "processamento de dados",
+      "ferramenta de IA",
+      "execução em sandbox"
+    ]
+  },
+  {
+    "nome": "Figma AI (Gen AI features)",
+    "descricao": "Ferramentas de inteligência artificial integradas ao Figma para auxiliar na geração de designs, prototipagem, organização de componentes e variações de UI.",
+    "data_criacao": "2023",
+    "link": "https://figma.com/",
+    "tags": [
+      "design generativo",
+      "prototipagem",
+      "ferramenta de UI/UX",
+      "criação de assets"
+    ]
+  },
+  {
+    "nome": "Stable Diffusion XL (SDXL)",
+    "descricao": "Modelo generativo de imagem de código aberto da Stability AI, conhecido pela alta qualidade fotorrealista e capacidade aprimorada de gerar texto coerente em imagens.",
+    "data_criacao": "2023",
+    "link": "https://stability.ai/",
+    "tags": [
+      "modelo de imagem",
+      "IA generativa",
+      "código aberto",
+      "computer vision"
+    ]
+  },
+  {
+    "nome": "Perplexity AI API",
+    "descricao": "API de busca e resposta que utiliza LLMs para fornecer informações diretas e citadas, ideal para integrar capacidades de pesquisa avançada em aplicações.",
+    "data_criacao": "2023",
+    "link": "https://perplexity.ai/",
+    "tags": [
+      "API de busca",
+      "LLM",
+      "processamento de linguagem",
+      "integração de dados"
+    ]
+  },
+  {
+    "nome": "Jupyter AI",
+    "descricao": "Extensão para Jupyter que integra modelos generativos para auxiliar na escrita de código, explicar células, depuração e gerar conteúdo em notebooks.",
+    "data_criacao": "2023",
+    "link": "https://jupyter.org/",
+    "tags": [
+      "notebooks",
+      "assistente de programação",
+      "ferramenta de desenvolvimento",
+      "python"
+    ]
+  },
+  {
+    "nome": "Anthropic Claude 3 Haiku",
+    "descricao": "O modelo mais rápido e compacto da família Claude 3, otimizado para tarefas de tempo real e alta eficiência de custo em aplicações empresariais.",
+    "data_criacao": "2024",
+    "link": "https://www.anthropic.com/",
+    "tags": [
+      "modelo de linguagem",
+      "LLM",
+      "inferência rápida",
+      "computação em nuvem",
+      "eficiência"
+    ]
+  },
+  {
+    "nome": "Runway Gen-2",
+    "descricao": "Plataforma de IA generativa especializada em criar vídeos fotorrealistas e estilosos a partir de prompts de texto, imagens ou videoclipes existentes.",
+    "data_criacao": "2023",
+    "link": "https://runwayml.com/",
+    "tags": [
+      "vídeo generativo",
+      "criação de conteúdo",
+      "multimodal",
+      "edição de vídeo"
+    ]
+  },
+  {
+    "nome": "Ollama",
+    "descricao": "Ferramenta de linha de comando que facilita a execução, implantação e gerenciamento de grandes modelos de linguagem (LLMs) de código aberto localmente.",
+    "data_criacao": "2023",
+    "link": "https://ollama.ai/",
+    "tags": [
+      "deploy local",
+      "LLM",
+      "código aberto",
+      "ferramenta de desenvolvimento"
+    ]
+  },
+  {
+    "nome": "W&B Prompts",
+    "descricao": "Funcionalidade do Weights & Biases (W&B) para rastrear, visualizar e gerenciar todo o ciclo de vida dos prompts e respostas dos modelos de linguagem.",
+    "data_criacao": "2023",
+    "link": "https://wandb.ai/",
+    "tags": [
+      "MLOps",
+      "rastreamento de experimentos",
+      "LLM",
+      "ferramenta de debug"
+    ]
+  },
+  {
+    "nome": "Mistral 7B",
+    "descricao": "Modelo de linguagem grande e aberto da Mistral AI, conhecido por sua performance robusta em um tamanho relativamente pequeno, ideal para edge computing e inferência eficiente.",
+    "data_criacao": "2023",
+    "link": "https://mistral.ai/",
+    "tags": [
+      "modelo de linguagem",
+      "LLM",
+      "código aberto",
+      "inferência",
+      "eficiência"
+    ]
+  },
+  {
+    "nome": "Hugging Face Inference Endpoints",
+    "descricao": "Serviço gerenciado que simplifica a implantação de modelos de machine learning, incluindo LLMs, para produção com escalabilidade e segurança.",
+    "data_criacao": "2022",
+    "link": "https://huggingface.co/",
+    "tags": [
+      "inferência de ML",
+      "MLOps",
+      "serviço em nuvem",
+      "deployment",
+      "API"
+    ]
+  },
+  {
+    "nome": "Google Vertex AI Search",
+    "descricao": "Solução que usa IA generativa (Grounded Generation) para criar experiências de pesquisa conversacionais e baseadas em fatos sobre dados empresariais internos.",
+    "data_criacao": "2023",
+    "link": "https://cloud.google.com/vertex-ai/",
+    "tags": [
+      "busca empresarial",
+      "IA generativa",
+      "nuvem",
+      "LLM"
+    ]
+  },
+  {
+    "nome": "Cursor AI",
+    "descricao": "Editor de código (fork do VS Code) que integra profundamente a IA para refatoração, explicação de código, debugging e navegação inteligente no codebase.",
+    "data_criacao": "2023",
+    "link": "https://cursor.sh/",
+    "tags": [
+      "editor de código",
+      "assistente de programação",
+      "IDE",
+      "produtividade"
+    ]
+  },
+  {
+    "nome": "AssemblyAI",
+    "descricao": "API especializada em reconhecimento de fala de última geração, que oferece recursos generativos como sumarização automática e análise de sentimento em áudio e vídeo.",
+    "data_criacao": "2017",
+    "link": "https://assemblyai.com/",
+    "tags": [
+      "API de áudio",
+      "processamento de linguagem",
+      "speech recognition",
+      "IA generativa"
+    ]
+  },
+  {
+    "nome": "Kore AI",
+    "descricao": "Plataforma de IA conversacional focada em assistentes virtuais e automação de processos para o mercado empresarial, utilizando LLMs customizados.",
+    "data_criacao": "2014",
+    "link": "https://www.kore.ai/",
+    "tags": [
+      "chatbot",
+      "IA conversacional",
+      "automação",
+      "plataforma empresarial"
+    ]
+  },
+  {
+    "nome": "ElevenLabs",
+    "descricao": "IA generativa líder especializada em clonagem de voz e síntese de fala com alta qualidade, permitindo a criação de narrativas emocionais e naturais.",
+    "data_criacao": "2022",
+    "link": "https://elevenlabs.io/",
+    "tags": [
+      "síntese de voz",
+      "áudio generativo",
+      "API",
+      "media"
+    ]
+  },
+  {
+    "nome": "DeepL Write Pro",
+    "descricao": "Ferramenta de escrita assistida por IA focada em melhorar a clareza, o estilo e a gramática, indo além da tradução para refinar o conteúdo escrito.",
+    "data_criacao": "2023",
+    "link": "https://www.deepl.com/write-pro",
+    "tags": [
+      "assistente de escrita",
+      "processamento de linguagem",
+      "produtividade",
+      "revisão de texto"
+    ]
+  },
+  {
+    "nome": "Firefly (Adobe)",
+    "descricao": "Conjunto de modelos de IA generativa integrados aos produtos da Adobe (como Photoshop e Illustrator) para criação de imagens, efeitos de texto e preenchimento generativo.",
+    "data_criacao": "2023",
+    "link": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+    "tags": [
+      "criação de imagens",
+      "design gráfico",
+      "software de arte",
+      "IA generativa"
+    ]
+  },
+  {
+    "nome": "Microsoft Copilot Studio",
+    "descricao": "Plataforma low-code para criar, personalizar e publicar copilots e chatbots baseados em LLMs, integrando-se ao ecossistema Microsoft Power Platform.",
+    "data_criacao": "2023",
+    "link": "https://copilotstudio.microsoft.com/",
+    "tags": [
+      "low-code",
+      "plataforma de chatbot",
+      "IA empresarial",
+      "automação"
+    ]
+  },
+  {
+    "nome": "Clarifai",
+    "descricao": "Plataforma de IA que oferece um catálogo de modelos pré-treinados e ferramentas para construir, treinar e implantar modelos em visão computacional e NLP, incluindo modelos generativos.",
+    "data_criacao": "2013",
+    "link": "https://www.clarifai.com/",
+    "tags": [
+      "plataforma de ML",
+      "visão computacional",
+      "LLM",
+      "API de IA"
+    ]
+  },
+  {
+    "nome": "YandexGPT",
+    "descricao": "O modelo de linguagem grande desenvolvido pela Yandex (o principal mecanismo de busca russo), utilizado para geração de texto, sumarização e suporte a diálogos complexos.",
+    "data_criacao": "2023",
+    "link": "https://yandex.com/",
+    "tags": [
+      "modelo de linguagem",
+      "LLM",
+      "pesquisa",
+      "geolocalizado"
+    ]
+  },
+  {
+    "nome": "Segment Anything Model (SAM)",
+    "descricao": "Modelo de visão computacional da Meta que pode isolar (segmentar) qualquer objeto em qualquer imagem com um único clique ou prompt, útil para etiquetagem automática de dados.",
+    "data_criacao": "2023",
+    "link": "https://ai.meta.com/",
+    "tags": [
+      "visão computacional",
+      "segmentação",
+      "código aberto",
+      "computer vision"
+    ]
+  },
+  {
+    "nome": "LlamaIndex",
+    "descricao": "Framework estrutural focado em ingestão, indexação e conexão de LLMs a fontes de dados externas (documentos, APIs, bancos) para aplicações de RAG eficientes.",
+    "data_criacao": "2022",
+    "link": "https://www.llamaindex.ai/",
+    "tags": [
+      "framework RAG",
+      "LLM",
+      "integração de dados",
+      "backend",
+      "data engineering"
+    ]
+  },
+  {
+    "nome": "Databricks Dolly",
+    "descricao": "Um LLM de código aberto (Apache 2.0) treinado pela Databricks usando dados de alta qualidade e crowdsourced, com foco em ser comercialmente utilizável para tarefas diversas.",
+    "data_criacao": "2023",
+    "link": "https://www.databricks.com/",
+    "tags": [
+      "LLM",
+      "código aberto",
+      "big data",
+      "machine learning"
+    ]
+  },
+  {
+    "nome": "MindsDB",
+    "descricao": "Plataforma de machine learning open source que conecta modelos de IA (incluindo LLMs) a bancos de dados tradicionais, permitindo gerar previsões diretamente via consultas SQL.",
+    "data_criacao": "2017",
+    "link": "https://mindsdb.com/",
+    "tags": [
+      "banco de dados",
+      "SQL",
+      "LLM",
+      "machine learning",
+      "backend"
+    ]
+  }
+]
